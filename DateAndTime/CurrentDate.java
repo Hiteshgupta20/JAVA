@@ -1,4 +1,4 @@
-/// Java program to print current date
+// Java program to print current date
 package DateAndTime;
 import java.util.*;
 public class CurrentDate {
