@@ -20,8 +20,7 @@ public class DateAndTimeUsingCalenderClass {
 		System.out.println("MINUTE :"+c.get(Calendar.MINUTE));
 		System.out.println("SECOND :"+c.get(Calendar.SECOND));
 		System.out.println("AM OR PM :"+c.get(Calendar.AM_PM));
-		
-		
+			
 		
 
 	}
