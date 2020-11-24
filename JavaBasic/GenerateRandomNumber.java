@@ -1,23 +1,21 @@
-//JAVA PROGRAM TO GENERATE RANDOM NUMBER
-package javaBasic;
+/*JAVA PROGRAM TO GENERATE RANDOM NUMBER B/W GIVEN RANGE
+ * 1.INITIALIZE THE MIN AND MAX RANGE 
+ * 2.USING MATH.RANDOM METHOD FINDING THE RANDOM NUMBER B/W MIN AND MAX NUMBER
+ * 3. PRINT THE RANDOM NUMBER*/
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
-public class GenerateRandomNumber {
+public class Random_number {
 
-	public static void main(String[] args) {
-		int min=300;
-		int max=500;
-		
-		System.out.println("Random number of type double between "+min +" & "+max);
-		
-		double a=Math.random()*(max-min+1)+min;
-		System.out.println(a);		//using Math.random method
-		
-		double b=Math.random()*(max-min)+min;
-		System.out.println(b);
-		
-		double c=ThreadLocalRandom.current().nextDouble(100,200);
-		System.out.println(c);		//using ThreadLocalRandom method
-	}
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the min range of number");
+	int min=sc.nextInt();										//input min number of range
+	System.out.println("Enter the max range of number");
+	int max=sc.nextInt();										//input max number of range
+	
+	System.out.println("Radom number b/w "+min +" & " +max);
+	int random_number=(int)(Math.random()*(max-min+1)+min);		//genrating random number
+	System.out.println(random_number);
+
+}
 
 }
