@@ -16,7 +16,7 @@ public class Matrix_multiplication {
 		c[i][j]=a[i][j]*b[i][j];    
 		System.out.print(c[i][j]+" ");    
 		}    
-		System.out.println();//new line    
+		System.out.println();     //new line    
 		}    
 		}  
 
