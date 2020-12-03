@@ -24,6 +24,7 @@ public class Sum_of_row_column {
 		  System.out.println("Sum of " + (i+1) +" row: " + sumRow);
 		}
 		System.out.println();
+		
 		//calculate sum of each column
 		for(int i=0;i<cols;i++) {
 			for(int j=0; j<rows;j++) {
