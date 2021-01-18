@@ -1,3 +1,5 @@
+package methods;
+
 public class fibnocci_series_using_recursion {
     
     static int fib(int n){

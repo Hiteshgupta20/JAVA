@@ -1,3 +1,5 @@
+package methods;
+
 public class star_pattern {
     
     static void pattern(int n){

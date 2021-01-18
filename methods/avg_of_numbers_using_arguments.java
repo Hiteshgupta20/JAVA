@@ -1,13 +1,14 @@
 /* avg_of_numbers_using_arguments*/
+package methods;
 public class avg_of_numbers_using_arguments {
 
     static double average(int... n) {
-        double avg = 0, result;
+        double avg = 0;
         for (int i : n) {
             avg = (avg + i);
 
         }
-        return result = avg / n.length;
+        return avg / n.length;
     }
 
     public static void main(String[] args) {

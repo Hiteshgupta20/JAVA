@@ -1,3 +1,4 @@
+package methods;
 public class star_pattern_using_recursion {
   //method for pattern using recursion
     static void pattern_rec(int n){

@@ -1,3 +1,4 @@
+package methods;
 public class celcius_to_fah {
     
     static float c_to_f(float n){

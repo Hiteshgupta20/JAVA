@@ -1,3 +1,5 @@
+package methods;
+
 public class star_pattern_reverse {
     static void pattern(int n){
         for(int i=0;i<n;i++){

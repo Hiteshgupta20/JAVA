@@ -1,3 +1,5 @@
+package methods;
+
 public class multiplication_table {
     
     static void  multiplication(int n){

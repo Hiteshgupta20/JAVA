@@ -1,3 +1,5 @@
+package methods;
+
 import java.util.*;
 public class sum_of_naturalNo_using_recursion {
     static int sumRec(int n){
